@@ -4,7 +4,7 @@ This is a fast, multi-threaded **TCP port scanner** written in Python. It scans 
 
 ---
 
-## 📸 Demo
+## Demo
 
 ### 🔹 Terminal Output
 ![alt text](Images/terminal.png)
@@ -75,8 +75,13 @@ num_threading = 500    # Number of threads
 - Progress is tracked using a progress bar.
 - Result are stores safely using a thread lock.
 
-### 📡 Network Traffic (Wireshark)
+###  Wireshark Analysis (Port 80)
+
+Packets 96–98 show a successful TCP 3-way handshake, confirming port 80 is open.  
+Packets 112–113 show the connection being properly closed.
+
 ![Wireshark](Images/wireshark.png)
+
 --- 
 
 ## output Example

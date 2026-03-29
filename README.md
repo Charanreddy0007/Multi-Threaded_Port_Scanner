@@ -21,6 +21,7 @@ Make sure you have Python 3 installed along with the required library:
 
 ```bash
 pip install tqdm
+```
 
 ---
 
@@ -31,11 +32,76 @@ pip install tqdm
 
 ```python 
 ip = "192.168.205.6"
+```
 
 - Run the script:
 
 ```bash
 python scanner.py
+```
 
 --- 
 
+## Configuration
+You can customize the following parameters:
+
+```markdown
+```python 
+ip = "192.168.205.6"   # Target IP address
+start_range = 0        # Starting port
+end_range = 65535      # Ending port
+num_threading = 500    # Number of threads
+```
+
+### Notes:
+- Increasing threads speeds up scanning but uses more system resources.
+- Timeout is set to 0.3 seconds per connection.
+
+---
+
+## How It Works
+- All ports are added to a queue.
+- Multiple threads pick ports from the queue.
+- Each thread:
+    - Creats a socket 
+    - Attempts to connect to the port
+    - Marks it as open if successful
+- Progress is tracked using a progress bar.
+- Result are stores safely using a thread lock.
+
+--- 
+
+## output Example
+
+```bash
+Scanning: 100%|███████████████| 65535/65535 [00:39<00:00, 1642.80it/s]
+--------------------------------------------------
+22 is Open
+80 is Open
+443 is Open
+--------------------------------------------------
+Total Time Taken: 12.345 seconds
+```
+---
+
+## Disclaimer
+
+This tool is intended for educational and authorized testing purposes only.
+- Do NOT scan systems without permission.
+- Unauthorized scanning may be illegal in your country.
+
+--- 
+
+## Future Improvements
+
+- Add UDP scanning
+- Save results to a file
+- Add banner grabbing
+- Support for domain names
+- Adjustable timeout via CLI
+
+--- 
+
+### Author
+
+Charan Reddy Muli

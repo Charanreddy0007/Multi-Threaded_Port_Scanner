@@ -8,7 +8,6 @@ A fast multi-threaded TCP port scanner demonstrating socket programming, threadi
 
 ### Terminal Output
 ![Terminal Output](images/terminal.png)
-
 ---
 ##  Features
 
@@ -81,7 +80,6 @@ Packets 96–98 show a successful TCP 3-way handshake, confirming that port 80 i
 Packets 112–113 show the connection being properly terminated.
 
 ![Wireshark](images/wireshark.png)
-
 --- 
 
 ## output Example

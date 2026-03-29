@@ -1,11 +1,10 @@
-# Port_Scanner
-# 🔍 Multi-threaded Port Scanner (Python)
+# Multi-threaded Port Scanner (Python)
 
 This is a fast, multi-threaded **TCP port scanner** written in Python. It scans a target IP address across a specified port range and identifies open ports using socket connections.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Multi-threaded scanning for high speed ⚡  
 - Scans full port range (0–65535)  
@@ -16,9 +15,27 @@ This is a fast, multi-threaded **TCP port scanner** written in Python. It scans 
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 Make sure you have Python 3 installed along with the required library:
 
 ```bash
 pip install tqdm
+
+---
+
+## Usage
+
+- Clone or download the script.
+- Modify the target IP address inside the script:
+
+```python 
+ip = "192.168.205.6"
+
+- Run the script:
+
+```bash
+python scanner.py
+
+--- 
+

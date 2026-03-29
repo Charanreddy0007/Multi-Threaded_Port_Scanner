@@ -7,7 +7,7 @@ A fast multi-threaded TCP port scanner demonstrating socket programming, threadi
 ## Demo
 
 ### Terminal Output
-![Terminal Output](images/terminal.png)
+![Terminal Output](Images/terminal.png)
 ---
 ##  Features
 
@@ -79,7 +79,7 @@ num_threading = 500    # Number of threads
 Packets 96–98 show a successful TCP 3-way handshake, confirming that port 80 is open.  
 Packets 112–113 show the connection being properly terminated.
 
-![Wireshark](images/wireshark.png)
+![Wireshark](Images/wireshark.png)
 --- 
 
 ## output Example

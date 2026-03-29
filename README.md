@@ -7,7 +7,7 @@ This is a fast, multi-threaded **TCP port scanner** written in Python. It scans 
 ## 📸 Demo
 
 ### 🔹 Terminal Output
-![Terminal Output](images/terminal.png)
+![alt text](Images/terminal.png)
 
 ---
 ##  Features
@@ -76,8 +76,7 @@ num_threading = 500    # Number of threads
 - Result are stores safely using a thread lock.
 
 ### 📡 Network Traffic (Wireshark)
-![Wireshark](images/wireshark.png)
-
+![Wireshark](Images/wireshark.png)
 --- 
 
 ## output Example

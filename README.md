@@ -11,7 +11,7 @@ A fast multi-threaded TCP port scanner demonstrating socket programming, threadi
 ---
 ##  Features
 
-- Multi-threaded scanning for high speed ⚡  
+- Multi-threaded scanning for high speed  
 - Scans full port range (0–65535)  
 - Uses queue-based task distribution  
 - Displays real-time progress using `tqdm`  

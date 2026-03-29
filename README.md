@@ -1,13 +1,13 @@
 # Multi-threaded Port Scanner (Python)
 
-This is a fast, multi-threaded **TCP port scanner** written in Python. It scans a target IP address across a specified port range and identifies open ports using socket connections.
+A fast multi-threaded TCP port scanner demonstrating socket programming, threading, and network packet analysis using Wireshark.
 
 ---
 
 ## Demo
 
 ### Terminal Output
-![alt text](Images/terminal.png)
+![Terminal Output](images/terminal.png)
 
 ---
 ##  Features
@@ -77,10 +77,10 @@ num_threading = 500    # Number of threads
 
 ###  Wireshark Analysis (Port 80)
 
-Packets 96–98 show a successful TCP 3-way handshake, confirming port 80 is open.  
-Packets 112–113 show the connection being properly closed.
+Packets 96–98 show a successful TCP 3-way handshake, confirming that port 80 is open.  
+Packets 112–113 show the connection being properly terminated.
 
-![Wireshark](Images/wireshark.png)
+![Wireshark](images/wireshark.png)
 
 --- 
 

@@ -6,7 +6,7 @@ This is a fast, multi-threaded **TCP port scanner** written in Python. It scans 
 
 ## Demo
 
-### 🔹 Terminal Output
+### Terminal Output
 ![alt text](Images/terminal.png)
 
 ---

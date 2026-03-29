@@ -7,7 +7,7 @@ from tqdm import tqdm
 ip = "192.168.205.6"
 start_range = 0
 end_range = 65535
-num_threading = 500
+num_threading = 750
 
 open_ports = []
 port_queue = Queue()

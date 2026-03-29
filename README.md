@@ -4,6 +4,12 @@ This is a fast, multi-threaded **TCP port scanner** written in Python. It scans 
 
 ---
 
+## 📸 Demo
+
+### 🔹 Terminal Output
+![Terminal Output](images/terminal.png)
+
+---
 ##  Features
 
 - Multi-threaded scanning for high speed ⚡  
@@ -45,7 +51,7 @@ python scanner.py
 ## Configuration
 You can customize the following parameters:
 
-```markdown
+
 ```python 
 ip = "192.168.205.6"   # Target IP address
 start_range = 0        # Starting port
@@ -68,6 +74,9 @@ num_threading = 500    # Number of threads
     - Marks it as open if successful
 - Progress is tracked using a progress bar.
 - Result are stores safely using a thread lock.
+
+### 📡 Network Traffic (Wireshark)
+![Wireshark](images/wireshark.png)
 
 --- 
 
